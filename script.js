@@ -5,12 +5,15 @@ var task = $(".toDo");
 $("#currentDay").text(date);
 
 var time = moment().format("ha");
+var time2 = moment("T00:00:00").format("ha");
+
+console.log(time2);
 
 var hour = document.getElementById("hour").innerHTML;
 
 
 function setPresent() {
-    if(time === "9pm"){
+    if(time === "9am"){
         var x = task[0];
         x.setAttribute("class", "present ");
     } else{
@@ -18,7 +21,7 @@ function setPresent() {
         x.setAttribute("class", "toDo col-8");
     }
     
-    if(time === "10pm"){
+    if(time === "10am"){
         var x = task[1];
         x.setAttribute("class", "present");
     } else{
@@ -34,7 +37,7 @@ function setPresent() {
         x.setAttribute("class", "toDo col-8");
     }
     
-    if(time === "12am"){
+    if(time === "12pm"){
         var x = task[3];
         x.setAttribute("class", "present");
     } else{

@@ -1,7 +1,9 @@
 # Daily-Planner-App
 Deployed link: https://arbayung.github.io/Daily-Planner-App/
 
-Description
+![Daily-Planner](Screenshot.png)
+
+## Description
 using moment.js to make a planner that uses local storage to save events.
 
 Users should be able to enter tasks into the allocated textboxes and save into local storage.
@@ -11,16 +13,16 @@ each time block should colour coded depending on their status.
 - yellow meaning past
 - green meaning future
 
-Installation
+## Installation
 N/A
 
-Usage
+## Usage
 The web application can be accessed through a provided link or alternatively downloading all resources and hosting locally through a pc.
 
-Credits
+## Credits
 N/A
 
-License
+## License
 ARbayung/Daily-Planner-App is licensed under the MIT License.
 
 A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
